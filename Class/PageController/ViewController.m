@@ -2,8 +2,8 @@
 //  ViewController.m
 //  CoffeeHunter
 //
-//  Created by 左村 on 15/2/1.
-//  Copyright (c) 2015年 John.zuo. All rights reserved.
+//  Created by John.zuo on 15/2/1.
+//  Copyright (c) 2015 John.zuo. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -13,11 +13,17 @@
 @end
 
 @implementation ViewController
+{
+    UITableView *coffeeTableView;
+    NSArray *coffeeInfoArray;
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //test
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
